@@ -15,6 +15,10 @@
 		B21FC16C1E733EB300B6CC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21FC16A1E733EB300B6CC32 /* Main.storyboard */; };
 		B21FC16E1E733EB300B6CC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21FC16D1E733EB300B6CC32 /* Assets.xcassets */; };
 		B21FC1711E733EB300B6CC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B21FC16F1E733EB300B6CC32 /* LaunchScreen.storyboard */; };
+		B222183A1E74BFBB00605314 /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22218391E74BFBB00605314 /* GameSprite.swift */; };
+		B222183C1E74C01200605314 /* Bee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222183B1E74C01200605314 /* Bee.swift */; };
+		B222183E1E74C46E00605314 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222183D1E74C46E00605314 /* Ground.swift */; };
+		B22218401E74C7A800605314 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222183F1E74C7A800605314 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B21FC16D1E733EB300B6CC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B21FC1701E733EB300B6CC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B21FC1721E733EB300B6CC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22218391E74BFBB00605314 /* GameSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
+		B222183B1E74C01200605314 /* Bee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bee.swift; sourceTree = "<group>"; };
+		B222183D1E74C46E00605314 /* Ground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		B222183F1E74C7A800605314 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,11 @@
 			children = (
 				B21FC1601E733EB300B6CC32 /* AppDelegate.swift */,
 				B21FC1621E733EB300B6CC32 /* GameScene.sks */,
+				B22218391E74BFBB00605314 /* GameSprite.swift */,
+				B222183F1E74C7A800605314 /* Player.swift */,
+				B222183D1E74C46E00605314 /* Ground.swift */,
 				B21FC1641E733EB300B6CC32 /* Actions.sks */,
+				B222183B1E74C01200605314 /* Bee.swift */,
 				B21FC1661E733EB300B6CC32 /* GameScene.swift */,
 				B21FC1681E733EB300B6CC32 /* GameViewController.swift */,
 				B21FC16A1E733EB300B6CC32 /* Main.storyboard */,
@@ -148,7 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B222183E1E74C46E00605314 /* Ground.swift in Sources */,
+				B222183C1E74C01200605314 /* Bee.swift in Sources */,
+				B222183A1E74BFBB00605314 /* GameSprite.swift in Sources */,
 				B21FC1671E733EB300B6CC32 /* GameScene.swift in Sources */,
+				B22218401E74C7A800605314 /* Player.swift in Sources */,
 				B21FC1691E733EB300B6CC32 /* GameViewController.swift in Sources */,
 				B21FC1611E733EB300B6CC32 /* AppDelegate.swift in Sources */,
 			);
@@ -314,6 +330,7 @@
 				B21FC1771E733EB300B6CC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
